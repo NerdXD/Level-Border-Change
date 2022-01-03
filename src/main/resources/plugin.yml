@@ -1,0 +1,8 @@
+name: XPBorderChange
+version: 1.0
+main: com.nerdxd.xpborderchange.XPBorderChange
+api-version: 1.17
+authors: [ NerdXD ]
+description: When you gain a level your world border will expand
+commands:
+  bc:
