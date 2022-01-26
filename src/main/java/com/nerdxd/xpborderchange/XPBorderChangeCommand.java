@@ -28,7 +28,7 @@ public class XPBorderChangeCommand implements CommandExecutor, Listener {
     @EventHandler
     public void onLevelGained(PlayerLevelChangeEvent e) {
         i = e.getPlayer().getWorld().getWorldBorder().getSize();
-        i = i + 5;
+        i = i + 10;
         e.getPlayer().getWorld().getWorldBorder().setSize(i);
 
     }
